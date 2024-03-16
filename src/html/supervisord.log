@@ -1,0 +1,104 @@
+2024-03-12 18:22:55,159 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 18:22:55,160 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-12 18:22:55,166 INFO RPC interface 'supervisor' initialized
+2024-03-12 18:22:55,166 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-12 18:22:55,169 INFO supervisord started with pid 1
+2024-03-12 18:27:20,641 WARN received SIGQUIT indicating exit request
+2024-03-13 12:30:07,933 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 12:30:07,933 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 12:30:07,938 INFO RPC interface 'supervisor' initialized
+2024-03-13 12:30:07,938 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 12:30:07,941 INFO supervisord started with pid 1
+2024-03-13 12:50:09,307 WARN received SIGQUIT indicating exit request
+2024-03-13 12:50:43,749 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 12:50:43,749 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 12:50:43,753 INFO RPC interface 'supervisor' initialized
+2024-03-13 12:50:43,753 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 12:50:43,755 INFO supervisord started with pid 1
+2024-03-13 12:56:49,170 WARN received SIGQUIT indicating exit request
+2024-03-13 12:57:23,972 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 12:57:23,972 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 12:57:23,977 INFO RPC interface 'supervisor' initialized
+2024-03-13 12:57:23,977 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 12:57:23,979 INFO supervisord started with pid 1
+2024-03-13 14:20:31,787 WARN received SIGQUIT indicating exit request
+2024-03-13 14:22:27,975 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:22:27,975 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 14:22:27,983 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:22:27,983 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:22:27,985 INFO supervisord started with pid 1
+2024-03-13 14:24:15,100 WARN received SIGQUIT indicating exit request
+2024-03-13 14:24:16,092 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:24:16,092 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-13 14:24:16,097 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:24:16,097 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:24:16,099 INFO supervisord started with pid 1
+2024-03-13 14:24:17,102 INFO spawned: 'php-worker_00' with pid 7
+2024-03-13 14:24:17,152 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:24:18,158 INFO spawned: 'php-worker_00' with pid 8
+2024-03-13 14:24:18,205 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:24:20,212 INFO spawned: 'php-worker_00' with pid 9
+2024-03-13 14:24:20,322 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:24:23,327 INFO spawned: 'php-worker_00' with pid 10
+2024-03-13 14:24:23,360 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:24:24,362 INFO gave up: php-worker_00 entered FATAL state, too many start retries too quickly
+2024-03-13 14:24:26,366 WARN received SIGQUIT indicating exit request
+2024-03-13 14:25:45,473 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:25:45,473 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 14:25:45,478 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:25:45,479 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:25:45,480 INFO supervisord started with pid 1
+2024-03-13 14:32:00,913 WARN received SIGQUIT indicating exit request
+2024-03-13 14:35:31,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:35:31,459 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-13 14:35:31,464 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:35:31,464 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:35:31,466 INFO supervisord started with pid 1
+2024-03-13 14:35:32,469 INFO spawned: 'php-worker_00' with pid 7
+2024-03-13 14:35:32,495 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:35:33,498 INFO spawned: 'php-worker_00' with pid 8
+2024-03-13 14:35:33,532 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:35:35,537 INFO spawned: 'php-worker_00' with pid 9
+2024-03-13 14:35:35,562 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:35:38,567 INFO spawned: 'php-worker_00' with pid 10
+2024-03-13 14:35:38,591 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-13 14:35:39,593 INFO gave up: php-worker_00 entered FATAL state, too many start retries too quickly
+2024-03-13 14:46:03,339 WARN received SIGQUIT indicating exit request
+2024-03-13 14:46:55,773 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:46:55,773 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-13 14:46:55,778 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:46:55,778 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:46:55,780 INFO supervisord started with pid 1
+2024-03-13 14:46:56,784 INFO spawned: 'php-worker_00' with pid 7
+2024-03-13 14:46:58,141 INFO success: php-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-13 14:51:21,200 WARN received SIGQUIT indicating exit request
+2024-03-13 14:51:21,200 INFO waiting for php-worker_00 to die
+2024-03-13 14:51:21,205 WARN stopped: php-worker_00 (terminated by SIGTERM)
+2024-03-13 14:51:53,497 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:51:53,497 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-13 14:51:53,502 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:51:53,503 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:51:53,505 INFO supervisord started with pid 1
+2024-03-13 14:51:54,509 INFO spawned: 'php-worker_00' with pid 7
+2024-03-13 14:51:55,828 INFO success: php-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-13 14:53:21,695 WARN received SIGQUIT indicating exit request
+2024-03-13 14:53:21,695 INFO waiting for php-worker_00 to die
+2024-03-13 14:53:21,698 WARN stopped: php-worker_00 (terminated by SIGTERM)
+2024-03-13 14:53:51,622 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 14:53:51,622 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 14:53:51,626 INFO RPC interface 'supervisor' initialized
+2024-03-13 14:53:51,627 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 14:53:51,628 INFO supervisord started with pid 1
+2024-03-13 15:08:26,627 WARN received SIGQUIT indicating exit request
+2024-03-13 15:10:37,549 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 15:10:37,550 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 15:10:37,554 INFO RPC interface 'supervisor' initialized
+2024-03-13 15:10:37,554 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 15:10:37,557 INFO supervisord started with pid 1
+2024-03-13 16:25:33,804 WARN received SIGQUIT indicating exit request
+2024-03-13 16:26:33,421 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-13 16:26:33,421 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2024-03-13 16:26:33,425 INFO RPC interface 'supervisor' initialized
+2024-03-13 16:26:33,425 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-13 16:26:33,428 INFO supervisord started with pid 1
+2024-03-13 16:35:00,518 WARN received SIGQUIT indicating exit request

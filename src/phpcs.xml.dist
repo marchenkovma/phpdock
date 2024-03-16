@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="default">
+    <description>Пользовательский стандарт кодирования для проекта</description>
+
+    <!-- Устанавливает стандарт кодирования PSR-12 -->
+    <rule ref="PSR12"/>
+
+    <!-- Пути для проверки -->
+    <file>src</file>
+    <file>public</file>
+
+    <!-- Игнорирует определенные файлы и папки -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <!-- Игнорирует правило, которое проверяет комментарии к файлам -->
+    <rule ref="PEAR.Commenting.FileComment">
+        <severity>0</severity>
+    </rule>
+
+    <!-- Показывает прогресс -->
+    <arg value="p"/>
+</ruleset>
