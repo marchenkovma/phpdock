@@ -279,3 +279,63 @@
 2024-03-17 16:44:58,784 WARN received SIGQUIT indicating exit request
 2024-03-17 16:44:58,787 INFO waiting for php-reciver_00 to die
 2024-03-17 16:44:58,796 WARN stopped: php-reciver_00 (terminated by SIGTERM)
+2024-03-17 21:04:59,912 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-17 21:04:59,912 INFO Included extra file "/etc/supervisor/conf.d/php-reciver.conf" during parsing
+2024-03-17 21:04:59,912 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-17 21:04:59,918 INFO RPC interface 'supervisor' initialized
+2024-03-17 21:04:59,918 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-17 21:04:59,920 INFO supervisord started with pid 1
+2024-03-17 21:05:00,933 INFO spawned: 'php-reciver_00' with pid 7
+2024-03-17 21:05:00,938 INFO spawned: 'php-worker_00' with pid 8
+2024-03-17 21:05:01,039 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:01,064 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:02,075 INFO spawned: 'php-reciver_00' with pid 9
+2024-03-17 21:05:02,079 INFO spawned: 'php-worker_00' with pid 10
+2024-03-17 21:05:02,115 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:02,118 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:04,125 INFO spawned: 'php-reciver_00' with pid 11
+2024-03-17 21:05:04,129 INFO spawned: 'php-worker_00' with pid 12
+2024-03-17 21:05:04,173 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:04,177 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:07,190 INFO spawned: 'php-reciver_00' with pid 13
+2024-03-17 21:05:07,194 INFO spawned: 'php-worker_00' with pid 14
+2024-03-17 21:05:07,234 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:07,238 INFO gave up: php-reciver_00 entered FATAL state, too many start retries too quickly
+2024-03-17 21:05:07,241 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:08,244 INFO gave up: php-worker_00 entered FATAL state, too many start retries too quickly
+2024-03-17 21:05:44,357 WARN received SIGQUIT indicating exit request
+2024-03-17 21:05:44,792 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-17 21:05:44,793 INFO Included extra file "/etc/supervisor/conf.d/php-reciver.conf" during parsing
+2024-03-17 21:05:44,793 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-17 21:05:44,797 INFO RPC interface 'supervisor' initialized
+2024-03-17 21:05:44,797 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-17 21:05:44,798 INFO supervisord started with pid 1
+2024-03-17 21:05:45,805 INFO spawned: 'php-reciver_00' with pid 7
+2024-03-17 21:05:45,809 INFO spawned: 'php-worker_00' with pid 8
+2024-03-17 21:05:45,846 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:45,854 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:46,860 INFO spawned: 'php-reciver_00' with pid 9
+2024-03-17 21:05:46,863 INFO spawned: 'php-worker_00' with pid 10
+2024-03-17 21:05:46,889 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:46,891 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:48,896 INFO spawned: 'php-reciver_00' with pid 11
+2024-03-17 21:05:48,899 INFO spawned: 'php-worker_00' with pid 12
+2024-03-17 21:05:48,925 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:48,927 WARN exited: php-worker_00 (exit status 255; not expected)
+2024-03-17 21:05:51,940 INFO spawned: 'php-reciver_00' with pid 13
+2024-03-17 21:05:51,943 INFO spawned: 'php-worker_00' with pid 14
+2024-03-17 21:05:51,943 WARN received SIGQUIT indicating exit request
+2024-03-17 21:05:51,944 INFO waiting for php-reciver_00, php-worker_00 to die
+2024-03-17 21:05:51,963 WARN exited: php-reciver_00 (exit status 255; not expected)
+2024-03-17 21:05:51,965 INFO gave up: php-reciver_00 entered FATAL state, too many start retries too quickly
+2024-03-17 21:05:51,965 WARN stopped: php-worker_00 (exit status 255)
+2024-03-17 21:56:25,874 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-17 21:56:25,874 INFO Included extra file "/etc/supervisor/conf.d/php-reciver.conf" during parsing
+2024-03-17 21:56:25,875 INFO Included extra file "/etc/supervisor/conf.d/php-worker.conf" during parsing
+2024-03-17 21:56:25,881 INFO RPC interface 'supervisor' initialized
+2024-03-17 21:56:25,881 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2024-03-17 21:56:25,883 INFO supervisord started with pid 1
+2024-03-17 21:56:26,888 INFO spawned: 'php-reciver_00' with pid 7
+2024-03-17 21:56:26,891 INFO spawned: 'php-worker_00' with pid 8
+2024-03-17 21:56:27,960 INFO success: php-reciver_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-17 21:56:27,962 INFO success: php-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

@@ -18,10 +18,17 @@ $callback = function ($msg) use ($db) {
 
     try {
         // Подготовить SQL-запрос для вставки в таблицу tasks
-        $stmt = $db->prepare("INSERT INTO tasks (message, status) VALUES (:message, :status)");
+        //INSERT INTO `tasks` (`title`, `message`, `status_id`) VALUES ('test', '{script: test.php}', 1);
+        $query = "
+            INSERT INTO `tasks`
+            (`title`, `message`, `status_id`)
+            VALUES (:title, :message, :status_id)
+        ";
+        $stmt = $db->prepare($query);
         $stmt->execute([
+            ':title' => 'crude',
             ':message' => $message,
-            ':status' => 'new', // Устанавливаем первоначальный статус как 'new'
+            ':status_id' => 1, // Устанавливаем первоначальный статус как 'new'
         ]);
 
         // Подтвердить получение сообщения
