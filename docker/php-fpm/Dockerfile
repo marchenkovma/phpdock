@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Устанавливает и включает необходимые PHP-расширения
-RUN docker-php-ext-install pdo pdo_mysql bcmath intl sockets
+RUN docker-php-ext-install pdo pdo_mysql bcmath sockets
 
 # Устанавливает рабочий каталог
 WORKDIR /var/www

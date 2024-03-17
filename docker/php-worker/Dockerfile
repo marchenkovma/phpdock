@@ -17,8 +17,7 @@ RUN apt-get update && apt-get install -y \
 # Устанавливает и включает необходимые PHP-расширения
 RUN docker-php-ext-install pdo pdo_mysql bcmath intl sockets
 
-CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
-
 # Устанавливает рабочий каталог
-WORKDIR /var/www
+#WORKDIR /var/www
 
+CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
